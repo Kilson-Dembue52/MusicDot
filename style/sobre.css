@@ -5,11 +5,12 @@ body {
     font-family: "Helvetica", "Lucida Grande", sans-serif;
     color: #3d3d3d;
 }
-h1 {
+.titulo {
     padding: 10px;
+    font-size: 32px;
     background-color: #e1edf2;
 }
-h2 {
+.subtitulo {
     border-bottom: 2px solid black;
 }
 figure {
@@ -33,4 +34,26 @@ figcaption {
 }
 figure img {
     width: 100%;
+}
+.contacto_subtitulo {
+    display: inline-block;
+}
+.contacto_seccao {
+    display: inline;
+    vertical-align: top;
+    margin-left: 16px;
+}
+.contacto_seccao--telefone {
+    margin-left: 32px;
+}
+.contacto_info {
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+.contacto_infor-titulo,
+.contacto_info-descricao {
+    display: inline;
+}
+.contacto_info-descricao {
+    margin-left: 10px;
 }
